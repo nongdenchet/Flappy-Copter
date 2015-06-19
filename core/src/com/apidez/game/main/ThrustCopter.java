@@ -221,6 +221,35 @@ public class ThrustCopter extends ApplicationAdapter {
         }
     }
 
+    private void drawComponent() {
+        backgroundSprite.draw(batch);
+        drawStarsAndPillars();
+        movingBackground.draw(batch);
+        touchStub.draw(batch);
+        plane.draw(batch);
+        starEffect.draw(batch, Gdx.graphics.getDeltaTime());
+        drawGameover();
+        drawInitFinger();
+        drawScore();
+    }
+
+    // Draw gameover
+    private void drawGameover() {
+        if (gameState == GameState.GAMEOVER) {
+            batch.draw(gameoverBtn, Value.GAMEOVER_POS_X, Value.GAMEOVER_POS_Y);
+        }
+    }
+
+    // Draw init finger
+    private void drawInitFinger() {
+        if (gameState == GameState.INIT) {
+            batch.draw(tap1, plane.getPlanePosition().x + Value.OFFSET_TOUCH_X,
+                    plane.getPlanePosition().y + Value.OFFSET_TOUCH_Y);
+        }
+    }
+
+
+    // Draw score
     private void drawScore() {
         switch (gameState) {
             case INIT:
@@ -233,35 +262,6 @@ public class ThrustCopter extends ApplicationAdapter {
                         Value.SCORE_X, Value.SCORE_Y);
                 break;
         }
-    }
-
-    private void drawComponent() {
-        Gdx.gl.glClearColor(1, 1, 1, 1);
-
-        // Draw movingBackground
-        backgroundSprite.draw(batch);
-        drawStarsAndPillars();
-
-        // Redraw components
-        movingBackground.draw(batch);
-        touchStub.draw(batch);
-        plane.draw(batch);
-
-        starEffect.draw(batch, Gdx.graphics.getDeltaTime());
-
-        // Draw gameover
-        if (gameState == GameState.GAMEOVER) {
-            batch.draw(gameoverBtn, Value.GAMEOVER_POS_X, Value.GAMEOVER_POS_Y);
-        }
-
-        // Draw init finger
-        if (gameState == GameState.INIT) {
-            batch.draw(tap1, plane.getPlanePosition().x + Value.OFFSET_TOUCH_X,
-                    plane.getPlanePosition().y + Value.OFFSET_TOUCH_Y);
-        }
-
-        // Draw score
-        drawScore();
     }
 
     private void resetGame() {
