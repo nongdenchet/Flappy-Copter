@@ -68,7 +68,7 @@ public class MovingBackground implements DrawableComponent {
     }
 
     /**
-     * The idea is maintain two terrain to make the screen keep moving
+     * The idea is maintain two terrains to make the screen keep moving
      */
     @Override
     public void update() {
