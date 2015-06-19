@@ -1,0 +1,159 @@
+
+ThrustCopter.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 1, 527
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+groundGrass
+  rotate: false
+  xy: 1, 454
+  size: 808, 71
+  orig: 808, 71
+  offset: 0, 0
+  index: -1
+rockGrassDown
+  rotate: false
+  xy: 1, 213
+  size: 108, 239
+  orig: 108, 239
+  offset: 0, 0
+  index: -1
+rockGrassUp
+  rotate: false
+  xy: 803, 768
+  size: 108, 239
+  orig: 108, 239
+  offset: 0, 0
+  index: -1
+shield3
+  rotate: false
+  xy: 111, 315
+  size: 144, 137
+  orig: 144, 137
+  offset: 0, 0
+  index: -1
+shield2
+  rotate: false
+  xy: 257, 333
+  size: 143, 119
+  orig: 143, 119
+  offset: 0, 0
+  index: -1
+shield1
+  rotate: false
+  xy: 402, 344
+  size: 133, 108
+  orig: 133, 108
+  offset: 0, 0
+  index: -1
+life
+  rotate: false
+  xy: 1, 92
+  size: 114, 119
+  orig: 114, 119
+  offset: 0, 0
+  index: -1
+planeRed1
+  rotate: false
+  xy: 803, 693
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+planeRed2
+  rotate: false
+  xy: 913, 934
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+planeRed3
+  rotate: false
+  xy: 537, 379
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+tap1
+  rotate: false
+  xy: 1, 31
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+tap2
+  rotate: false
+  xy: 111, 254
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+meteorBrown_med1
+  rotate: false
+  xy: 803, 648
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+meteorBrown_med2
+  rotate: false
+  xy: 913, 892
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+star_pickup
+  rotate: false
+  xy: 627, 414
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+shield_pickup
+  rotate: false
+  xy: 537, 347
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+meteorBrown_small1
+  rotate: false
+  xy: 1, 1
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+meteorBrown_small2
+  rotate: false
+  xy: 62, 64
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+fuel_pickup
+  rotate: false
+  xy: 1003, 977
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+meteorBrown_tiny1
+  rotate: false
+  xy: 893, 748
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+meteorBrown_tiny2
+  rotate: false
+  xy: 257, 316
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1

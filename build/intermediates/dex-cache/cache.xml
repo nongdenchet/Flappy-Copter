@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nongdenchet/Java/Learning/Game/Demo/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="de75f70e4efd9c76aa5d2b89521197bd7495ea63">
+        <dex dex="/Users/nongdenchet/Java/Learning/Game/Demo/android/build/intermediates/pre-dexed/debug/core-1.0-3ef1bc78a700211882a28ef3ff16f88aa63915ab.jar" />
+    </item>
+
+</items>

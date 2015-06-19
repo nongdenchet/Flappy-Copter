@@ -1,0 +1,158 @@
+thrustcopterassets.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 2, 75
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+fuel_pickup
+  rotate: false
+  xy: 763, 615
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+groundGrass
+  rotate: false
+  xy: 2, 2
+  size: 808, 71
+  orig: 808, 71
+  offset: 0, 0
+  index: -1
+life
+  rotate: false
+  xy: 513, 557
+  size: 114, 119
+  orig: 114, 119
+  offset: 0, 0
+  index: -1
+meteorBrown_med1
+  rotate: false
+  xy: 537, 753
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+meteorBrown_med2
+  rotate: false
+  xy: 582, 753
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+meteorBrown_small1
+  rotate: false
+  xy: 763, 585
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+meteorBrown_small2
+  rotate: false
+  xy: 763, 557
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+meteorBrown_tiny1
+  rotate: false
+  xy: 222, 771
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+meteorBrown_tiny2
+  rotate: false
+  xy: 242, 771
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+planeRed1
+  rotate: false
+  xy: 537, 678
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+planeRed2
+  rotate: false
+  xy: 312, 696
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+planeRed3
+  rotate: false
+  xy: 222, 696
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+rockGrassDown
+  rotate: false
+  xy: 112, 557
+  size: 108, 239
+  orig: 108, 239
+  offset: 0, 0
+  index: -1
+rockGrassUp
+  rotate: false
+  xy: 2, 557
+  size: 108, 239
+  orig: 108, 239
+  offset: 0, 0
+  index: -1
+shield1
+  rotate: false
+  xy: 402, 678
+  size: 133, 108
+  orig: 133, 108
+  offset: 0, 0
+  index: -1
+shield2
+  rotate: false
+  xy: 368, 557
+  size: 143, 119
+  orig: 143, 119
+  offset: 0, 0
+  index: -1
+shield3
+  rotate: false
+  xy: 222, 557
+  size: 144, 137
+  orig: 144, 137
+  offset: 0, 0
+  index: -1
+shield_pickup
+  rotate: false
+  xy: 670, 739
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+star_pickup
+  rotate: false
+  xy: 629, 739
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+tap1
+  rotate: false
+  xy: 702, 557
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+tap2
+  rotate: false
+  xy: 627, 678
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1

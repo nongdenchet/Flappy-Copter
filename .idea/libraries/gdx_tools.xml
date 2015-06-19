@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gdx-tools">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Source/Libgdx/Main/libgdx-texturepacker-gui-189c5f112cc3/gui/libs/gdx-tools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
