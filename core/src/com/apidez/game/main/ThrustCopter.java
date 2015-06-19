@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ThrustCopter extends ApplicationAdapter {
-    static final String TAG = "Thrust Copter";
+    static final String TAG = "Flappy Copter";
 
     public enum GameState {
         GAMEOVER, INIT, ACTION
@@ -72,10 +72,6 @@ public class ThrustCopter extends ApplicationAdapter {
         fpsLogger = new FPSLogger();
 
         // effects
-        initEffect();
-    }
-
-    private void initEffect() {
         starEffect = new ParticleEffect();
         starEffect.load(Gdx.files.internal("star_capture_effect.p"), atlas);
     }
@@ -209,71 +205,6 @@ public class ThrustCopter extends ApplicationAdapter {
         updateGameState();
     }
 
-    private void drawStarsAndPillars() {
-        // Draw stars
-        for (Star star : stars) {
-            star.draw(batch);
-        }
-
-        // Draw pillars
-        for (Pillar pillar : pillars) {
-            pillar.draw(batch);
-        }
-    }
-
-    private void drawComponent() {
-        backgroundSprite.draw(batch);
-        drawStarsAndPillars();
-        movingBackground.draw(batch);
-        touchStub.draw(batch);
-        plane.draw(batch);
-        starEffect.draw(batch, Gdx.graphics.getDeltaTime());
-        drawGameover();
-        drawInitFinger();
-        drawScore();
-    }
-
-    // Draw gameover
-    private void drawGameover() {
-        if (gameState == GameState.GAMEOVER) {
-            batch.draw(gameoverBtn, Value.GAMEOVER_POS_X, Value.GAMEOVER_POS_Y);
-        }
-    }
-
-    // Draw init finger
-    private void drawInitFinger() {
-        if (gameState == GameState.INIT) {
-            batch.draw(tap1, plane.getPlanePosition().x + Value.OFFSET_TOUCH_X,
-                    plane.getPlanePosition().y + Value.OFFSET_TOUCH_Y);
-        }
-    }
-
-
-    // Draw score
-    private void drawScore() {
-        switch (gameState) {
-            case INIT:
-            case GAMEOVER:
-                Resource.instance().getFont().draw(batch, "High score: " + prefs.getInteger("high_score", 0),
-                        10, Value.HEIGHT - 10);
-                break;
-            case ACTION:
-                Resource.instance().getFont().draw(batch, String.valueOf(score),
-                        Value.SCORE_X, Value.SCORE_Y);
-                break;
-        }
-    }
-
-    private void resetGame() {
-        score = 0;
-        gameState = GameState.INIT;
-        pillars.clear();
-        stars.clear();
-        movingBackground.reset();
-        touchStub.reset();
-        plane.reset();
-    }
-
     private void updateGameState() {
         // Collision with stars
         int index = -1;
@@ -315,5 +246,69 @@ public class ThrustCopter extends ApplicationAdapter {
                 }
             }
         }
+    }
+
+    private void drawComponent() {
+        backgroundSprite.draw(batch);
+        drawStarsAndPillars();
+        movingBackground.draw(batch);
+        touchStub.draw(batch);
+        plane.draw(batch);
+        starEffect.draw(batch, Gdx.graphics.getDeltaTime());
+        drawGameover();
+        drawInitFinger();
+        drawScore();
+    }
+
+    private void drawStarsAndPillars() {
+        // Draw stars
+        for (Star star : stars) {
+            star.draw(batch);
+        }
+
+        // Draw pillars
+        for (Pillar pillar : pillars) {
+            pillar.draw(batch);
+        }
+    }
+
+    // Draw gameover
+    private void drawGameover() {
+        if (gameState == GameState.GAMEOVER) {
+            batch.draw(gameoverBtn, Value.GAMEOVER_POS_X, Value.GAMEOVER_POS_Y);
+        }
+    }
+
+    // Draw init finger
+    private void drawInitFinger() {
+        if (gameState == GameState.INIT) {
+            batch.draw(tap1, plane.getPlanePosition().x + Value.OFFSET_TOUCH_X,
+                    plane.getPlanePosition().y + Value.OFFSET_TOUCH_Y);
+        }
+    }
+
+    // Draw score
+    private void drawScore() {
+        switch (gameState) {
+            case INIT:
+            case GAMEOVER:
+                Resource.instance().getFont().draw(batch, "High score: " + prefs.getInteger("high_score", 0),
+                        10, Value.HEIGHT - 10);
+                break;
+            case ACTION:
+                Resource.instance().getFont().draw(batch, String.valueOf(score),
+                        Value.SCORE_X, Value.SCORE_Y);
+                break;
+        }
+    }
+
+    private void resetGame() {
+        score = 0;
+        gameState = GameState.INIT;
+        pillars.clear();
+        stars.clear();
+        movingBackground.reset();
+        touchStub.reset();
+        plane.reset();
     }
 }

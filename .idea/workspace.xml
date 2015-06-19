@@ -55,13 +55,26 @@
       <file leaf-file-name="ThrustCopter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.505036">
-              <caret line="250" column="9" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.4532374">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#init#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#create#0;class#ThrustCopter#0" expanded="false" />
                 <element signature="method#resume#0;class#ThrustCopter#0" expanded="false" />
                 <element signature="method#pause#0;class#ThrustCopter#0" expanded="false" />
                 <element signature="method#render#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#drawScene#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#addPillar#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#addStar#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#updateScene#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#updateGameState#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#drawComponent#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#drawStarsAndPillars#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#drawGameover#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#drawInitFinger#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#drawScore#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="method#resetGame#0;class#ThrustCopter#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2657,12 +2670,12 @@
       <workItem from="1434437755791" duration="22386000" />
       <workItem from="1434550011182" duration="206000" />
       <workItem from="1434633838043" duration="8838000" />
-      <workItem from="1434703975517" duration="771000" />
+      <workItem from="1434703975517" duration="1011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65987000" />
+    <option name="totallyTimeSpent" value="66227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3121,13 +3134,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.505036">
-          <caret line="250" column="9" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.4532374">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#create#0;class#ThrustCopter#0" expanded="false" />
             <element signature="method#resume#0;class#ThrustCopter#0" expanded="false" />
             <element signature="method#pause#0;class#ThrustCopter#0" expanded="false" />
             <element signature="method#render#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#drawScene#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#addPillar#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#addStar#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#updateScene#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#updateGameState#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#drawComponent#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#drawStarsAndPillars#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#drawGameover#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#drawInitFinger#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#drawScore#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="method#resetGame#0;class#ThrustCopter#0" expanded="false" />
           </folding>
         </state>
       </provider>
