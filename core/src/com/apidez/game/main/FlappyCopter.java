@@ -18,7 +18,7 @@ import com.badlogic.gdx.utils.viewport.StretchViewport;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ThrustCopter extends ApplicationAdapter {
+public class FlappyCopter extends ApplicationAdapter {
     static final String TAG = "Flappy Copter";
 
     public enum GameState {

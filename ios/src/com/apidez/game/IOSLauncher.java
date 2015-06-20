@@ -1,6 +1,6 @@
 package com.apidez.game;
 
-import com.apidez.game.main.ThrustCopter;
+import com.apidez.game.main.FlappyCopter;
 import org.robovm.apple.foundation.NSAutoreleasePool;
 import org.robovm.apple.uikit.UIApplication;
 
@@ -11,7 +11,7 @@ public class IOSLauncher extends IOSApplication.Delegate {
     @Override
     protected IOSApplication createApplication() {
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
-        return new IOSApplication(new ThrustCopter(), config);
+        return new IOSApplication(new FlappyCopter(), config);
     }
 
     public static void main(String[] argv) {
