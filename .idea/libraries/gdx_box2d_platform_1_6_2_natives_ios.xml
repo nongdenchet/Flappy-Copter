@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="gdx-box2d-platform-1.6.2-natives-ios">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d-platform/1.6.2/38fec452d48c64f62ce31f60ad8833d53773314/gdx-box2d-platform-1.6.2-natives-ios.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
