@@ -9,10 +9,47 @@
     </filters>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.apidez.game.android" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="921194e5-883b-447c-8ebb-7410429957d3" name="Default" comment="" />
+    <list default="true" id="921194e5-883b-447c-8ebb-7410429957d3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app/IOSLauncher" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app/IOSLauncher" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app.dSYM/Contents/Resources/DWARF/IOSLauncher" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app.dSYM/Contents/Resources/DWARF/IOSLauncher" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/resource/Resource.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/resource/Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/main/ThrustCopter$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/main/ThrustCopter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/main/ThrustCopter.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/main/ThrustCopter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/target/TouchStub.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/apidez/game/target/TouchStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0-3ef1bc78a700211882a28ef3ff16f88aa63915ab.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0-3ef1bc78a700211882a28ef3ff16f88aa63915ab.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app/lib/core-1.0.jar" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app/lib/core-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/groundGrass.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/groundGrass.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app/groundGrass.png" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/IOSLauncher.app/groundGrass.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker1.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker1.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker2.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker2.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker3.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker3.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker4.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker4.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker5.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker5.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker6.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker6.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker7.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker7.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/linker8.o" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/linker8.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java" afterPath="$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java" afterPath="$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/apidez/game/target/TouchStub.java" afterPath="$PROJECT_DIR$/core/src/com/apidez/game/target/TouchStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/robovm.tmp/objects0" afterPath="$PROJECT_DIR$/ios/build/robovm.tmp/objects0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -52,29 +89,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ThrustCopter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThrustCopter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4532374">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#init#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#create#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#resume#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#pause#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#render#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#drawScene#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#addPillar#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#addStar#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#updateScene#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#updateGameState#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#drawComponent#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#drawStarsAndPillars#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#drawGameover#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#drawInitFinger#0;class#ThrustCopter#0" expanded="false" />
-                <element signature="method#drawScore#0;class#ThrustCopter#0" expanded="false" />
+                <element signature="e#3412#3413#0" expanded="true" />
+                <element signature="e#3458#3459#0" expanded="true" />
                 <element signature="method#resetGame#0;class#ThrustCopter#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouchStub.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/target/TouchStub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66281754">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/target/MovingBackground.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -98,6 +147,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2219,13 +2271,14 @@
         <option value="$PROJECT_DIR$/android/assets/star_capture_effect" />
         <option value="$PROJECT_DIR$/android/assets/star_capture_effect.p" />
         <option value="$PROJECT_DIR$/core/src/com/apidez/game/helper/Saving.java" />
-        <option value="$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java" />
         <option value="$PROJECT_DIR$/core/src/com/apidez/game/target/Background.java" />
         <option value="$PROJECT_DIR$/android/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/ios/Info.plist.xml" />
         <option value="$PROJECT_DIR$/core/src/com/apidez/game/resource/Value.java" />
         <option value="$PROJECT_DIR$/core/src/com/apidez/game/target/MovingBackground.java" />
+        <option value="$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java" />
         <option value="$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java" />
+        <option value="$PROJECT_DIR$/core/src/com/apidez/game/target/TouchStub.java" />
       </list>
     </option>
   </component>
@@ -2248,7 +2301,7 @@
     <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2271,7 +2324,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2293,7 +2346,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2670,12 +2723,14 @@
       <workItem from="1434437755791" duration="22386000" />
       <workItem from="1434550011182" duration="206000" />
       <workItem from="1434633838043" duration="8838000" />
-      <workItem from="1434703975517" duration="1011000" />
+      <workItem from="1434703975517" duration="1065000" />
+      <workItem from="1434709201400" duration="500000" />
+      <workItem from="1434759584376" duration="1413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66227000" />
+    <option name="totallyTimeSpent" value="68194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2702,7 +2757,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36237898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36237898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2715,7 +2771,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2776,7 +2831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39869282">
           <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2874,7 +2928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2925,17 +2978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/target/TouchStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3328551">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2943,7 +2985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47345766">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2966,21 +3007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="70" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#649#650#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#748#749#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#833#834#0" expanded="false" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1795#1796#0" expanded="false" />
-            <element signature="e#1849#1850#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2988,9 +3014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="29" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3034,20 +3057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.22877698">
           <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="e#1103#1104#0" expanded="false" />
-            <element signature="e#1172#1173#0" expanded="false" />
-            <element signature="e#1396#1397#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3055,10 +3064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <element signature="e#1635#1636#0" expanded="false" />
-            <element signature="e#1654#1655#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3127,34 +3132,42 @@
     <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/target/MovingBackground.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/main/ThrustCopter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4532374">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#init#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#create#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#resume#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#pause#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#render#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#drawScene#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#addPillar#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#addStar#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#updateScene#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#updateGameState#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#drawComponent#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#drawStarsAndPillars#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#drawGameover#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#drawInitFinger#0;class#ThrustCopter#0" expanded="false" />
-            <element signature="method#drawScore#0;class#ThrustCopter#0" expanded="false" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3458#3459#0" expanded="true" />
             <element signature="method#resetGame#0;class#ThrustCopter#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/resource/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/apidez/game/target/TouchStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66281754">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

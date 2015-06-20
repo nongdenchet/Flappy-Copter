@@ -24,15 +24,17 @@ public class TouchStub implements DrawableComponent {
     private Camera camera;
     private Plane plane;
     private TextureAtlas atlas;
+    private Resource resource;
 
-    public static TouchStub newInstance(Camera camera, TextureAtlas atlas, Plane plane) {
-        return new TouchStub(camera, atlas, plane);
+    public static TouchStub newInstance(Camera camera, TextureAtlas atlas, Plane plane, Resource resource) {
+        return new TouchStub(camera, atlas, plane, resource);
     }
 
-    private TouchStub(Camera camera, TextureAtlas atlas, Plane plane) {
+    private TouchStub(Camera camera, TextureAtlas atlas, Plane plane, Resource resource) {
         this.atlas = atlas;
         this.camera = camera;
         this.plane = plane;
+        this.resource = resource;
         init();
     }
 
@@ -49,7 +51,7 @@ public class TouchStub implements DrawableComponent {
         if (Gdx.input.justTouched()) {
             float x = plane.getPlanePosition().x;
             float y = plane.getPlanePosition().y;
-            Resource.instance().playPop();
+            resource.playPop();
 
             touchPosition.set(Gdx.input.getX(), Gdx.input.getY(), 0);
             camera.unproject(touchPosition);

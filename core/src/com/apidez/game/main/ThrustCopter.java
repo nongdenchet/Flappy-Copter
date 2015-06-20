@@ -46,6 +46,8 @@ public class ThrustCopter extends ApplicationAdapter {
     private Preferences prefs;
     private int score;
 
+    private Resource resource;
+    
     // MovingBackground
     private Sprite backgroundSprite;
 
@@ -66,7 +68,8 @@ public class ThrustCopter extends ApplicationAdapter {
         viewport = new StretchViewport(Value.WIDTH, Value.HEIGHT, camera);
         viewport.apply();
         camera.position.set(Value.WIDTH / 2, Value.HEIGHT / 2, 0);
-        Resource.instance().load();
+        resource = new Resource();
+        resource.load();
 
         // Init the frame detector
         fpsLogger = new FPSLogger();
@@ -89,20 +92,26 @@ public class ThrustCopter extends ApplicationAdapter {
         gameoverBtn = atlas.findRegion("gameover");
         movingBackground = MovingBackground.newInstance(atlas);
         plane = Plane.newInstance(atlas);
-        touchStub = TouchStub.newInstance(camera, atlas, plane);
-        Resource.instance().playLoop();
+        touchStub = TouchStub.newInstance(camera, atlas, plane, resource);
+        resource.playLoop();
     }
 
     @Override
     public void resume() {
         super.resume();
-        Resource.instance().playLoop();
+        resource.playLoop();
     }
 
     @Override
     public void pause() {
         super.pause();
-        Resource.instance().stopLoop();
+        resource.stopLoop();
+    }
+
+    @Override
+    public void dispose() {
+        super.dispose();
+        resource.dispose();
     }
 
     @Override
@@ -211,7 +220,7 @@ public class ThrustCopter extends ApplicationAdapter {
         for (Star star : stars) {
             if (OverlapPolygon.overlap(star.getBound(), plane.getBound())) {
                 if (gameState == GameState.ACTION) {
-                    Resource.instance().playStar();
+                    resource.playStar();
                     index = stars.indexOf(star);
                 }
             }
@@ -232,7 +241,7 @@ public class ThrustCopter extends ApplicationAdapter {
                 || plane.getPlanePosition().y + Value.PLAN_HEIGHT
                 > Value.HEIGHT - movingBackground.getTerrainBelow().getRegionHeight() + Value.EPSILON) {
             if (gameState != GameState.GAMEOVER) {
-                Resource.instance().playCrash();
+                resource.playCrash();
                 gameState = GameState.GAMEOVER;
             }
         }
@@ -241,7 +250,7 @@ public class ThrustCopter extends ApplicationAdapter {
         for (Pillar pillar : pillars) {
             if (OverlapPolygon.overlap(pillar.getBound(), plane.getBound())) {
                 if (gameState != GameState.GAMEOVER) {
-                    Resource.instance().playCrash();
+                    resource.playCrash();
                     gameState = GameState.GAMEOVER;
                 }
             }
@@ -292,11 +301,11 @@ public class ThrustCopter extends ApplicationAdapter {
         switch (gameState) {
             case INIT:
             case GAMEOVER:
-                Resource.instance().getFont().draw(batch, "High score: " + prefs.getInteger("high_score", 0),
+                resource.getFont().draw(batch, "High score: " + prefs.getInteger("high_score", 0),
                         10, Value.HEIGHT - 10);
                 break;
             case ACTION:
-                Resource.instance().getFont().draw(batch, String.valueOf(score),
+                resource.getFont().draw(batch, String.valueOf(score),
                         Value.SCORE_X, Value.SCORE_Y);
                 break;
         }

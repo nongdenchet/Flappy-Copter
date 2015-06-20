@@ -9,16 +9,15 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
  * Created by nongdenchet on 6/17/15.
  */
 public class Resource {
-    private AssetManager manager = new AssetManager();
-    private static Resource soundManager;
+    private AssetManager manager;
+    private static Resource resource;
 
-    public static Resource instance() {
-        if (soundManager == null)
-            soundManager = new Resource();
-        return soundManager;
+    public Resource() {
+        manager = new AssetManager();
     }
 
-    private Resource() {
+    public void dispose() {
+        manager.dispose();
     }
 
     public void load() {
