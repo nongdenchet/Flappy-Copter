@@ -10,7 +10,6 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
  */
 public class Resource {
     private AssetManager manager;
-    private static Resource resource;
 
     public Resource() {
         manager = new AssetManager();
