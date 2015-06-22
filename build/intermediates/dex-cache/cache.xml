@@ -5,7 +5,7 @@
         jar="/Users/nongdenchet/Java/Learning/Game/Demo/core/build/libs/core-1.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="65ead8bf3970276254c141e7bcf17abafa17e117">
+        sha1="ccdbe9a288e326a9dfdb259214709f126eddfda4">
         <dex dex="/Users/nongdenchet/Java/Learning/Game/Demo/android/build/intermediates/pre-dexed/debug/core-1.0-3ef1bc78a700211882a28ef3ff16f88aa63915ab.jar" />
     </item>
 
