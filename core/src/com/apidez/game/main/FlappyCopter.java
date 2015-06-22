@@ -47,7 +47,7 @@ public class FlappyCopter extends ApplicationAdapter {
     private int score;
 
     private Resource resource;
-    
+
     // MovingBackground
     private Sprite backgroundSprite;
 
@@ -118,8 +118,8 @@ public class FlappyCopter extends ApplicationAdapter {
     public void render() {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         fpsLogger.log();
-         updateScene();
-         drawScene();
+        updateScene();
+        drawScene();
     }
 
     @Override
