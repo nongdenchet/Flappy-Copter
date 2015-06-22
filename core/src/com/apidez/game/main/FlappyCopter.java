@@ -116,7 +116,6 @@ public class FlappyCopter extends ApplicationAdapter {
 
     @Override
     public void render() {
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         fpsLogger.log();
         updateScene();
         drawScene();
@@ -128,6 +127,7 @@ public class FlappyCopter extends ApplicationAdapter {
     }
 
     private void drawScene() {
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         camera.update();
         batch.setProjectionMatrix(camera.combined);
         batch.begin();
