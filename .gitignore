@@ -35,6 +35,9 @@
 
 # IntelliJ
 /out/
+/build/
+/android/build/
+/core/build/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
