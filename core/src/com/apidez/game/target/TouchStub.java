@@ -1,6 +1,5 @@
 package com.apidez.game.target;
 
-import com.apidez.game.resource.Resource;
 import com.apidez.game.resource.Value;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Camera;
@@ -24,17 +23,15 @@ public class TouchStub implements DrawableComponent {
     private Camera camera;
     private Plane plane;
     private TextureAtlas atlas;
-    private Resource resource;
 
-    public static TouchStub newInstance(Camera camera, TextureAtlas atlas, Plane plane, Resource resource) {
-        return new TouchStub(camera, atlas, plane, resource);
+    public static TouchStub newInstance(Camera camera, TextureAtlas atlas, Plane plane) {
+        return new TouchStub(camera, atlas, plane);
     }
 
-    private TouchStub(Camera camera, TextureAtlas atlas, Plane plane, Resource resource) {
+    private TouchStub(Camera camera, TextureAtlas atlas, Plane plane) {
         this.atlas = atlas;
         this.camera = camera;
         this.plane = plane;
-        this.resource = resource;
         init();
     }
 
@@ -51,7 +48,6 @@ public class TouchStub implements DrawableComponent {
         if (Gdx.input.justTouched()) {
             float x = plane.getPlanePosition().x;
             float y = plane.getPlanePosition().y;
-            resource.playPop();
 
             touchPosition.set(Gdx.input.getX(), Gdx.input.getY(), 0);
             camera.unproject(touchPosition);

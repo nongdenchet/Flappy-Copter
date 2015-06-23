@@ -92,7 +92,7 @@ public class FlappyCopter extends ApplicationAdapter {
         gameoverBtn = atlas.findRegion("gameover");
         movingBackground = MovingBackground.newInstance(atlas);
         plane = Plane.newInstance(atlas);
-        touchStub = TouchStub.newInstance(camera, atlas, plane, resource);
+        touchStub = TouchStub.newInstance(camera, atlas, plane);
         resource.playLoop();
     }
 
@@ -160,6 +160,11 @@ public class FlappyCopter extends ApplicationAdapter {
     }
 
     private void updateScene() {
+        // Play sound touch
+        if (Gdx.input.justTouched()) {
+            resource.playPop();
+        }
+
         // Check game state
         switch (gameState) {
             case INIT:
