@@ -16,7 +16,6 @@ public class Plane implements DrawableComponent {
     private float planeAnimTime;
     private Vector2 planeVelocity, planePosition, planeDefaultPosition;
     private Vector2 gravity, scrollVelocity;
-    private static final Vector2 damping = new Vector2(0.99f, 0.99f);
     private TextureAtlas atlas;
 
     private Polygon bound;
@@ -79,7 +78,6 @@ public class Plane implements DrawableComponent {
     public void update() {
         float deltaTime = Gdx.graphics.getDeltaTime();
         planeAnimTime += deltaTime; // as time gone by
-        // planeVelocity.scl(damping); // reduce 1% velocity
         planeVelocity.add(gravity); // apply gravity to the velocity
         planePosition.mulAdd(planeVelocity, deltaTime); // apply the final velocity to the position
         bound.setVertices(new float[]{
