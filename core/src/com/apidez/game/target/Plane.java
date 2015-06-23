@@ -64,8 +64,8 @@ public class Plane implements DrawableComponent {
                 atlas.findRegion("planeRed2"),
                 atlas.findRegion("planeRed3"),
                 atlas.findRegion("planeRed2"));
+        movingPlan.setPlayMode(Animation.PlayMode.LOOP); // request looping bewtween frame
         bound = new Polygon();
-        movingPlan.setPlayMode(Animation.PlayMode.LOOP);
         gravity = new Vector2();
         scrollVelocity = new Vector2();
         planeVelocity = new Vector2();
